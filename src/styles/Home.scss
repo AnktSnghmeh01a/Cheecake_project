@@ -1,0 +1,97 @@
+.homePart{
+  background-image: url(../asserts/Background.png);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.7vw;
+  padding-top: 4.6vw;
+  overflow-y: hidden;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  .leftDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    padding-top: 1.5vw;
+    .textPortion{
+      display: flex;
+      flex-direction: column;
+      gap: 1.7em;
+      padding: 3.5vw 0;
+
+      .headingPortion{
+        display: flex;
+        flex-direction: column;
+        line-height: 4em;
+          
+        h1{
+          font-size: 6vw;
+          font-weight: 400;
+          letter-spacing: -2px;
+          font-family: 'Playfair Display', serif;
+          color:#8a6052;
+
+        }
+      }
+      
+      
+     .paraPortion{
+      display: flex;
+      flex-direction: column;
+
+      p{
+        font-size: 1.2em;
+      }
+     }
+
+     .button-part{
+      display: flex;
+      gap: 0.7em;
+      .getStarted{
+        padding: 0.9em 1.6em;
+        background-color: #8a6052;
+        color: #ffff;
+        border: none;
+        border-radius: 1.6em;
+        cursor: pointer;
+        box-shadow: 1px 2px 2px #312c2c;
+        
+        
+        &:hover{
+        box-shadow: 1px 5px 10px #9e9795;
+
+        }
+      }
+
+     .watchDemo{
+      padding: 0.8em 1.4em;
+      border-radius: 1.6em;
+      border: none;
+      border: 1px solid #8a6052;
+      background-color: transparent;
+      cursor: pointer;
+
+      &:hover{
+        border: 1px solid black;
+      }
+     }
+
+     }
+
+    }
+  }
+  
+  .rightDiv{
+    height: 44vw;
+    width: 44vw;
+    img{
+      height: 100%;
+      width: 100%;
+      background-position: center;
+    }
+  }
+}

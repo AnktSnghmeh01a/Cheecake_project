@@ -1,0 +1,89 @@
+.menu{
+  background-image: url(../asserts/Background.png);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 2.7vw;
+  padding-top: 4.6vw;
+  overflow-y: hidden;
+  gap: 5vw;
+  width: 100%;
+  min-height: 120vh;
+  box-sizing: border-box;
+
+  h1{
+    font-weight: 400;
+    font-size: 5vw;
+    letter-spacing: -3px;
+    color: #8a6052;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .menu-container {
+   
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    width: 100%;
+
+    .my-menu-cart {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0.4vw 0.5vw;
+      border-radius: 2em;
+      gap: 1vw;
+      background-color: #fff8e1;
+      height: 30vw;
+      width: 28vw;
+      box-shadow: 1px 2px 2px #312c2c;
+      cursor: pointer;
+      
+       .imgDiv{
+        
+        height: 10em;
+        width: 10em;
+        align-self: center;
+         img{
+            height: 100%;
+            width: 100%;
+            background-position: center;
+           }
+
+
+       }
+       
+
+       .txt-part{
+
+         h3{
+          font-family: 'poppins';
+          font-size: 2vw;
+          font-weight: 400;
+          letter-spacing: -1px;
+          padding: 0 1vw;
+         }
+
+
+       }
+
+       .rating-part{
+         display: flex;
+         width: 100%;
+         justify-content: space-between;
+         padding: 0 1vw;
+
+      }
+
+    }
+ }
+ 
+
+ 
+ }
+
+

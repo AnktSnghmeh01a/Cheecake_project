@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 5em;
+  padding: 0 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .imageDiv {
+    img {
+      height: 8.5vw;
+      width: 11vw;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  > main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5em;
+    border-radius: 10px;
+    background-color: #8a6052;
+
+    > a {
+      text-decoration: none;
+      color: white;
+      height: 100%;
+      padding: 0.8vw 2vw;
+
+      &:nth-last-child(4) {
+        // border: 1px solid red;
+        border-radius: 10px;
+        background-color: #ffff;
+        color: #8a6052;
+      }
+    }
+  }
+
+  > button {
+    padding: 0.8vw 1.9vw;
+    border-radius: 2em;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+}

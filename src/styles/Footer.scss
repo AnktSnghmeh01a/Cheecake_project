@@ -7,9 +7,9 @@
   justify-content: center;
   width: 100%;
   gap: 0.7em; 
-  color: #8d6051;
-  background-color: #ffffffc0;
-  box-shadow: inset 1px 1px 5px #000000;
+  color: #ffff;
+  background-image: url('../asserts/Background.png');
+  box-shadow: inset 1px 1px 5px #635b5b;
 
   .upper_footer{
     display: flex;
@@ -31,15 +31,15 @@
       .linkdin-icon{
         font-size: 2em;
         color: #0077B5;
-        box-shadow: 1px 3px 4px #00000077;
-        background-color: transparent;
+        box-shadow: 1px 3px 4px #a7a2a277;
+        // background-color: transparent;
         border-radius: 5px;
       }
 
       .x-icon{
         font-size: 2em;
         color: #1DA1F2;
-        box-shadow: 1px 3px 4px #00000077;
+        box-shadow: 1px 3px 4px #b4a9a977;
         border-radius: 5px;
 
 

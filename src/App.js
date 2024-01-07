@@ -13,6 +13,7 @@ import "./styles/About.scss";
 import "./styles/Menu.scss";
 import "./styles/Contact.scss";
 import "./styles/MediaQuery.scss";
+import "./styles/Footer.scss";
 
 
 

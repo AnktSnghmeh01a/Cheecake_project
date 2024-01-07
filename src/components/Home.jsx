@@ -2,6 +2,7 @@ import React from "react";
 import About from "./About";
 import Menu from "./Menu";
 import Contact from "./Contact";
+import Footer from  "./Footer";
 import { HashLink } from "react-router-hash-link";
 import HomeImg from "../asserts/Main Image (Home).png";
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
       <About/>
       <Menu/>
       <Contact/>
+      <Footer/>
     </>
   );
 };

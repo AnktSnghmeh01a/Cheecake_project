@@ -9,9 +9,9 @@ const Footer = () => {
 
       <h1>Connect with me</h1>
       <div className="media-section">
-       <a href="https://www.linkedin.com/in/ankit-singh-mehra-03a211245/" target='_blank'><AiOutlineLinkedin className='linkdin-icon'/></a> 
+       <a href="https://www.linkedin.com/in/ankit-singh-mehra-03a211245/" target='_blank' rel="noreferrer"><AiOutlineLinkedin className='linkdin-icon'/></a> 
 
-       <a href="https://twitter.com/itzAnkitCodes01" target='_blank'><AiFillTwitterCircle className='x-icon'/></a> 
+       <a href="https://twitter.com/itzAnkitCodes01" target='_blank' rel="noreferrer"><AiFillTwitterCircle className='x-icon'/></a> 
       </div>
      </div>
 
